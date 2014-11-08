@@ -2,17 +2,13 @@ menu:
   #Home: /
   #Archives: /archives
   首页: /
-  存档: /archives
+  归档: /archives
   关于: /about
-  TEST: /New-Page
 
 widgets:
 - search
 - category
-- tag
-- me
-- blogroll
-- qq
+- tagcloud
 
 excerpt_link: 阅读全文
 
@@ -32,7 +28,7 @@ addthis:
 fancybox: true
 
 google_analytics:
-rss:
+rss: /atom.xml
 
 comment_provider: facebook
 # Facebook comment

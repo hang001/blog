@@ -6,7 +6,7 @@
 title: wscg
 subtitle: You create your own reality
 description: 
-author: 
+author: byandby
 email: yongjinquanli@gmail.com
 language: zh-CN
 
@@ -14,7 +14,8 @@ duoshuo_shortname: byandby
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hang001.github.io/
+#url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -84,10 +85,24 @@ disqus_shortname:
 theme: light
 exclude_generator:
 
+
+plugins:
+- hexo-generator-feed
+
+sitemap:
+    path: sitemap.xml
+
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: github
-  repository: https://github.com/hang001/hang001.github.com.git
-  branch: master 
+#deploy:
+#  type: github
+  #repository: https://github.com/hang001/hang001.github.com.git
+  #branch: master 
   #master master/gh-pages  
+deploy:
+  type: git
+  message: 
+  repo:
+    github: https://github.com/hang001/hang001.github.com.git,master
+    gitcafe: https://gitcafe.com/byandby/byandby.git,gitcafe-pages
