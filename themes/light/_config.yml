@@ -1,16 +1,17 @@
 menu:
   #Home: /
   #Archives: /archives
-  首页: /
-  归档: /archives
-  关于: /about
+  Home: /
+  Archives: /archives
+  About: /about
 
 widgets:
-- search
 - category
 - tagcloud
+- calendar
+- recent_posts
 
-excerpt_link: 阅读全文
+excerpt_link: Read More
 
 twitter:
   username:
@@ -20,14 +21,14 @@ twitter:
 addthis:
   enable: true
   pubid:
-  facebook: true
-  twitter: true
+  facebook: false
+  twitter: false
   google: true
   pinterest: true
 
 fancybox: true
 
-google_analytics:
+google_analytics: UA-56580524-1
 rss: /atom.xml
 
 comment_provider: facebook
