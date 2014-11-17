@@ -8,8 +8,9 @@ menu:
 widgets:
 - category
 - tagcloud
-- calendar
 - recent_posts
+
+#- calendar
 
 excerpt_link: Read More
 
